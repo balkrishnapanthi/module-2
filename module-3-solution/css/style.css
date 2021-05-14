@@ -59,7 +59,7 @@ font-weight: bold;
 
 div > p{
  background-color: rgb(253, 252, 251);
- 
+ text-align:center;
  padding:12px;
  margin:8px;
  overflow: hidden;
