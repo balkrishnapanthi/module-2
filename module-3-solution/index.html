@@ -116,8 +116,16 @@
 function appear() {
   
 document.getElementById("items").style.display="contents";
+document.getElementById("toggle").setAttribute("onclick","disappear()");
   
 }
+function disappear() {
+  
+  document.getElementById("items").style.display="none";
+  document.getElementById("toggle") .setAttribute("onclick","appear()");
+    
+  }
+
 
 
 
